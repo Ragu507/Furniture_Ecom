@@ -39,7 +39,7 @@ DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = ['https://furnitureecom.pythonanywhere.com/','127.0.0.1','localhost']
 
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-o5(ok=lf*%#+94k(wxa!o0uwwg3wn5*a=r#rn70#4s969v(5i^'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
