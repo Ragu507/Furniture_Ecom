@@ -37,7 +37,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, env_file))
 
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = [env('ALLOWED_HOSTS')]
+ALLOWED_HOSTS = ['https://furnitureecom.pythonanywhere.com/','127.0.0.1','localhost']
 
 SECRET_KEY = env('SECRET_KEY')
 
