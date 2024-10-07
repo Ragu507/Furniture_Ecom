@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-o5(ok=lf*%#+94k(wxa!o0uwwg3wn5*a=r#rn70#4s969v(5i^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['furnitureecom.pythonanywhere.com','localhost','127.0.0.1']
 
 env_file = f'.env.{os.environ.get("CURRENT_ENV", "local")}'
 
